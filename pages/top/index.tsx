@@ -14,9 +14,15 @@ const items = [
 		link: "https://www.swiftbysundell.com/podcast/",
 	},
 	{
-		title: "Shoe dog",
-		type: "Book",
-		link: "https://www.goodreads.com/book/show/27220736-shoe-dog",
+		title: "Endel",
+		type: "App",
+		link: "https://endel.io/",
+	},
+	{
+		title: "How to Work with Designers",
+		type: "Article",
+		link:
+			"https://medium.com/the-year-of-the-looking-glass/how-to-work-with-designers-6c975dede146",
 	},
 	{
 		title: "Fleet Foxes - Shore",
@@ -24,15 +30,20 @@ const items = [
 		link: "https://open.spotify.com/album/0lmjCPEcec2k6L7ysNIcd3",
 	},
 	{
+		title: "Shoe dog",
+		type: "Book",
+		link: "https://www.goodreads.com/book/show/27220736-shoe-dog",
+	},
+	{
+		title: "Poolside FM",
+		type: "App",
+		link: "https://poolside.fm/",
+	},
+	{
 		title: "The making of a manager",
 		type: "Book",
 		link:
 			"https://www.goodreads.com/book/show/38821039-the-making-of-a-manager",
-	},
-	{
-		title: "Endel",
-		type: "App",
-		link: "https://endel.io/",
 	},
 ];
 
@@ -42,7 +53,9 @@ export default function Home() {
 			<div className="mb-20">
 				<h1 className={styles.title}>Top 10</h1>
 
-				<p className={styles.description}>10 great things in 2021 🔥</p>
+				<p className={styles.description}>
+					10 gems you may or may not know of
+				</p>
 			</div>
 
 			<div className="font-mono">
