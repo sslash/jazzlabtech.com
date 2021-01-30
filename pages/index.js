@@ -1,15 +1,9 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Page from '../molecules/Page'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Jazzlab</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
+    <Page>
         <h1 className={styles.title}>
           Welcome to <a href="http://jazzlabtech.com">Jazzlab! 👋</a>
         </h1>
@@ -28,24 +22,7 @@ export default function Home() {
             <h3>Reach out &rarr;</h3>
             <p>Reach out for business enqueries. Or anything else!</p>
           </a>
-
-         
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <footer className={styles.footer}>
-        <p>Made with ✌️ and ❤️</p>
-      </footer>
-        </a>
-      </footer>
-
-     
-    </div>
+          </div>
+     </Page>
   )
 }
