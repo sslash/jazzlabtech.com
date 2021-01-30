@@ -6,7 +6,6 @@ interface Props {
 	title: string;
 	body: string;
 	link: string;
-	rounded: boolean;
 }
 
 const PortfolioRow: React.FC<Props> = ({
@@ -15,7 +14,6 @@ const PortfolioRow: React.FC<Props> = ({
 	title,
 	body,
 	link,
-	rounded = true,
 }) => {
 	return (
 		<div className="container max-w-5xl">
