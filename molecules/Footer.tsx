@@ -9,7 +9,7 @@ const Footer: React.FC<Props> = ({}) => {
 		<footer className={styles.footer}>
 			<a href="/" target="_blank" rel="noopener noreferrer">
 				<footer className={styles.footer}>
-					<p>Made with ✌️ and ❤️</p>
+					<p>Made in Oslo with ✌️ and ❤️</p>
 				</footer>
 			</a>
 		</footer>

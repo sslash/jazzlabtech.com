@@ -14,14 +14,11 @@ export default function Home() {
 			</div>
 
 			<PortfolioRow
-				imgSrc="https://www.ice.no/globalassets/bilder/andre-bilder/app-bilder/ice-appen.png?preset=1920w"
-				imgAlt="ice-appen"
-				title="ice-appen"
-				link="https://www.ice.no/produkt/ice-app/"
-				body="Bruk appen til å få full oversikt og kontroll over eget
-        mobilbruk. Med ice-appen kan du følge med på forbruk og
-        kostnader, kjøpe ekstra datapakker, rulle over data til
-        familie eller venner samt aktivere diverse sperrer."
+				imgSrc="https://oda.com/static/front/img/ios/app-in-hand.bb01f2ef3fc9.webp"
+				imgAlt="Oda"
+				title="Oda"
+				body="Oda er Norges største matbutikk på nett, og du finner oss i både App Store og på Google Play"
+				link="https://oda.com/no/about/app/"
 			/>
 
 			<div className="m-12"></div>
@@ -39,6 +36,18 @@ export default function Home() {
 				title="Shift"
 				link="https://www.shiftfm.app/"
 				body="Podcasts & Music, mixed perfectly into your workouts. The #1 Podcast App for Fitness"
+			/>
+
+			<div className="m-12"></div>
+			<PortfolioRow
+				imgSrc="https://www.ice.no/globalassets/bilder/andre-bilder/app-bilder/ice-appen.png?preset=1920w"
+				imgAlt="ice-appen"
+				title="ice-appen"
+				link="https://www.ice.no/produkt/ice-app/"
+				body="Bruk appen til å få full oversikt og kontroll over eget
+        mobilbruk. Med ice-appen kan du følge med på forbruk og
+        kostnader, kjøpe ekstra datapakker, rulle over data til
+        familie eller venner samt aktivere diverse sperrer."
 			/>
 
 			<div className="m-12"></div>
