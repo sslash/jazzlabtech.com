@@ -11,11 +11,11 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.15.2",
 		"autoprefixer": "^10.2.4",
-		"next": "10.0.5",
+		"next": "^13.2.4",
 		"postcss": "^8.2.4",
 		"postcss-import": "^14.0.0",
-		"react": "17.0.1",
-		"react-dom": "17.0.1",
+		"react": "18.2.x",
+		"react-dom": "18.2.x",
 		"sass": "^1.32.5",
 		"tailwindcss": "^2.0.2"
 	},

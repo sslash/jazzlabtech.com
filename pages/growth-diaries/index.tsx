@@ -5,20 +5,20 @@ export default function Home() {
 	return (
 		<Page>
 			<div className="mb-20">
-				<h1 className={styles.title}>Fire Circuits</h1>
+				<h1 className={styles.title}>The Growth Diaries</h1>
 
 				<div style={{ paddingBottom: "4rem" }}>
 					<p className={styles.description}>
-						Quick and brutal circuit workouts.
+						The workout tracker you'll fall inn love with
 					</p>
 				</div>
 
 				<img
-					src="https://i.imgur.com/ocaP037.png"
-					alt="Fire Circuits"
+					src="https://i.imgur.com/PwnbUWS.png"
+					alt="The Growth Diaries"
 					style={{
 						width: "100%",
-						maxWidth: 700,
+						maxWidth: 750,
 						paddingBottom: "6rem",
 						paddingLeft: "1rem",
 						paddingRight: "1rem",
@@ -33,7 +33,7 @@ export default function Home() {
 					}}
 				>
 					<a
-						href="https://apps.apple.com/us/app/20-minute-fire-circuits/id1637701958"
+						href=""
 						style={{
 							display: "block",
 							backgroundImage: `url(

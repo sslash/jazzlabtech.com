@@ -10,6 +10,9 @@ const Nav: React.FC<Props> = ({}) => {
 					<a href="mailto:michael@jazzlabtech.com">Contact</a>
 				</div>
 				<div className="p-3">
+					<a href="/growth-diaries">Growth Diaries</a>
+				</div>
+				<div className="p-3">
 					<a href="/fire-circuits">Fire Circuits</a>
 				</div>
 				<div className="p-3">
