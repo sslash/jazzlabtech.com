@@ -33,7 +33,7 @@ export default function Home() {
 					}}
 				>
 					<a
-						href=""
+						href="https://apps.apple.com/app/the-growth-diaries/id1661453949"
 						style={{
 							display: "block",
 							backgroundImage: `url(
