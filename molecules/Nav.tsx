@@ -13,7 +13,7 @@ const Nav: React.FC<Props> = ({}) => {
 					<a href="/growth-diaries">Growth Diaries</a>
 				</div>
 				<div className="p-3">
-					<a href="/fire-circuits">Fire Circuits</a>
+					<a href="/circuit-smash-rpg">Circuit Smash RPG</a>
 				</div>
 				<div className="p-3">
 					<a href="/portfolio">Portfolio</a>

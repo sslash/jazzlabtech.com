@@ -5,17 +5,17 @@ export default function Home() {
 	return (
 		<Page>
 			<div className="mb-20">
-				<h1 className={styles.title}>Fire Circuits</h1>
+				<h1 className={styles.title}>Circuit Smash RPG</h1>
 
 				<div style={{ paddingBottom: "4rem" }}>
 					<p className={styles.description}>
-						Quick and brutal circuit workouts.
+						Fitness game with fun and effective circuit workouts.
 					</p>
 				</div>
 
 				<img
 					src="https://i.imgur.com/ocaP037.png"
-					alt="Fire Circuits"
+					alt="Circuit Smash RPG"
 					style={{
 						width: "100%",
 						maxWidth: 700,
